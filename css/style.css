@@ -10,13 +10,14 @@
 
 /* HEADER */
 
+header {
+    background-color: white;
+    padding: 20px;
+}
+
 header span {
     font-size: 40px;
     font-weight: 900;
-}
-
-header div {
-    margin: 20px;
 }
 
 .logo {
@@ -29,14 +30,13 @@ header div {
 
 /* MAIN */
 
-main {
+body {
     background-color: #f6f8f9;
-    /* margin: 40px;; */
 }
 
 .container {
     width: 50%;
-    margin: 50px 300px;
+    margin: 50px auto;
     background-color: white;
 }
 
@@ -48,8 +48,9 @@ main {
     border-radius: 5px;
     border-width: 1px;
     width: 80px;
-    padding: 5px 3px;
+    padding: 5px 4px;
     font-size: 12px;
+    font-weight: 900;
 }
 
 .btn-blue {
@@ -67,7 +68,6 @@ main {
 .buttons {
     text-align: left;
     padding: 10px 40px;
-
 }
 
 hr {
@@ -91,6 +91,7 @@ li {
 }
 .bold {
     font-weight: 900;
+    margin-left:12px;
 }
 
 .symbols {
@@ -103,6 +104,8 @@ li {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/* COLOR */
 
 .green {
     color: green;
@@ -122,6 +125,8 @@ li {
     margin: 5px;
     border-radius: 10px;
 }
+
+/* BACKGROUND COLOR */
 
 .bg-blue {
     background-color:#48aef1;
