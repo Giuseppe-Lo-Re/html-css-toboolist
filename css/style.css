@@ -4,3 +4,27 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+/* FONT FAMILY */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* HEADER */
+
+header span {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+header div {
+    margin: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.brand {
+    vertical-align: middle;
+}
