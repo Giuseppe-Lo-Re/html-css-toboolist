@@ -1,14 +1,12 @@
-/* RESET */
+/* RESET + FONT */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-/* FONT FAMILY */
-* {
-    font-family: 'Mulish', sans-serif;
-}
+
 
 /* HEADER */
 
@@ -31,12 +29,19 @@ header div {
 
 /* MAIN */
 
-.container {
-    width: 60%;
-    margin: auto;
+main {
+    background-color: #f6f8f9;
+    /* margin: 40px;; */
 }
 
-/* button */
+.container {
+    width: 50%;
+    margin: 50px 300px;
+    background-color: white;
+}
+
+/* BUTTON */
+
 .btn {
     display: inline-block;
     border-style: solid;
@@ -57,4 +62,50 @@ header div {
     border-color:lightgrey;
     background-color:white ;
     color: lightgrey;
+}
+
+.buttons {
+    text-align: left;
+    padding: 10px 60px;
+
+}
+
+hr {
+    border-style: solid;
+    border-color: #f6f8f9;
+    border-width: 1px;
+}
+
+/* UNORDERED LIST */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+.bold {
+    font-weight: 900;
+}
+
+.symbols {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.green {
+    color: green;
+    border: 1px solid green;
+}
+
+.red {
+    color: red;
+    border: 1px solid red;
 }
