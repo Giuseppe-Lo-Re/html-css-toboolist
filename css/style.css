@@ -28,3 +28,33 @@ header div {
 .brand {
     vertical-align: middle;
 }
+
+/* MAIN */
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 80px;
+    padding: 5px 3px;
+    font-size: 12px;
+}
+
+.btn-blue {
+    border-color:#48aef1;
+    background-color:#48aef1 ;
+    color: white;
+}
+
+.btn-white {
+    border-color:lightgrey;
+    background-color:white ;
+    color: lightgrey;
+}
