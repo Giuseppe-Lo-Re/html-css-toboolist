@@ -151,3 +151,11 @@ li {
 .bg-lime {
     background-color:#b1c925;
 }
+
+/* BEFORE SELECTOR */
+
+span::before {
+    content: "\2713  ";
+  }
+
+
